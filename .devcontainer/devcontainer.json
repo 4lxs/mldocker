@@ -1,0 +1,17 @@
+{
+	"name": "ml devcontainer setup",
+	"build": {
+		"dockerfile": "Dockerfile",
+		"context": ".."
+	},
+	// "runArgs": [
+	// 	"--gpus=all",
+	// 	"--privileged"
+	// ],
+	// "settings": {
+	// 	"python.defaultInterpreterPath": "/opt/venv/bin/python"
+	// },
+	"extensions": [
+		"ms-python.python"
+	]
+}
